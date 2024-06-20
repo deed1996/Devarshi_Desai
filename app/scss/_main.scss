@@ -1,0 +1,16 @@
+.main {
+    text-align: center;
+
+
+    &_heading {
+
+        p {
+            max-width: 1000px;
+            margin: 0 auto 15px;
+        }
+
+        @include breakpoint-up(medium) {
+            flex: 2;
+        }
+    }
+}

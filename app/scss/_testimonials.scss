@@ -1,0 +1,35 @@
+.testimonials {
+    text-align: center;
+
+    &_card {
+        background-color: #FAFAFA;
+        padding: 2rem;
+        height: 25rem;
+
+        @include breakpoint-up(large) {
+            height: 23rem;
+            margin-bottom: 3rem;
+        }
+
+        img {
+            width: 20%;
+        }
+    }
+}
+
+.tns-nav > [aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin-left: 5px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid $brightBlue;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: none;
+}
+
+.tns-nav > .tns-nav-active {
+    background: $brightBlue;
+}
