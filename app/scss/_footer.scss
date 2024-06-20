@@ -1,0 +1,91 @@
+.footer {
+    background-color: $veryDarkBlue;
+    color: $white;
+    padding: 0.5rem;
+    position: relative;
+    text-align: center;
+    
+    p {
+        color: #fff;
+    }
+    &_logo {
+
+        img {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @include breakpoint-up(medium) {
+            grid-area: logo;
+        }
+    }
+
+    &_socials {
+        display: flex;
+        justify-content: space-around;
+
+        @include breakpoint-up(medium) {
+            grid-area: socials;
+        }
+    }
+
+
+    &_links {
+        display: inline-grid;
+        justify-items: start;
+        align-items: stretch;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        a {
+            color: $white;
+            padding-bottom: 1rem;
+        }
+
+        &.col1 {
+            @include breakpoint-up(medium) {
+                grid-area: col1;
+            }
+        }
+
+        &.col2 {
+            @include breakpoint-up(medium) {
+                grid-area: col2;
+                align-self: flex-start;
+            }
+        }
+
+    }
+
+    &_form {
+        input {
+            padding: 0.7rem 1.5rem;
+            border-radius: 2.5rem;
+            width: 70%;
+            margin-right: 0.5rem;
+            color: $darkGrayishBlue;
+            font-size: 0.8rem;
+        }
+
+        a.button {
+            box-shadow: none;
+        }
+
+        @include breakpoint-up(medium) {
+            grid-area: form;
+            align-self: center;
+        }
+
+    }
+
+    &_copyright {
+        @include breakpoint-up(medium) {
+            grid-area: copyright;
+            justify-self: end;
+            align-self: center;
+        }
+    }
+}

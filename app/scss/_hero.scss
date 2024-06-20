@@ -1,0 +1,153 @@
+.hero {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+    @include breakpoint-down(medium) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    @include breakpoint-up(medium) { //Tablet
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 0;
+    }
+
+    @include breakpoint-up(large) { //Desktop
+        align-items: center;
+        padding-bottom: 3rem;
+        padding-top: 4%;
+    }
+
+    &_banner {
+        background-image: linear-gradient(#CBDBEE, #ffffff);
+    }
+
+    &_image {
+        position: relative;
+        min-height: 30rem;
+        width: 100%;
+
+
+        @include breakpoint-down(extra-small) {
+            min-height: 20rem;
+            padding-top: 5%;
+        }
+
+        @include breakpoint-down(xx-small) {
+            min-height: 15rem;
+        }
+
+        @include breakpoint-up(medium) { //Desktop and Tablet
+            order: 2;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url(../../images/hero-right-img.png?fmt=auto&w=500);
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+
+    &_text {
+
+        text-align: center;
+
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            display: block;
+            font-weight: 500;
+        }
+
+        @include breakpoint-down(extra-small) {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @include breakpoint-up(medium) { //Desktop and Tablet
+            flex: 2;
+            order: 1;
+            text-align: left;
+            padding-right: 0;
+
+            h1 {
+                font-size: 2.8rem;
+            }
+
+            p {
+                margin-right: 5rem;
+                max-width: 400px;
+            }
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            gap: 30px;
+        }
+
+        @include breakpoint-up(medium) {
+            
+            ul { 
+                justify-content: flex-start;
+                gap: 20px;
+            }
+        }
+
+        @include breakpoint-up(large) {
+
+            padding-left: 5rem;
+            
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+.arrow {
+    margin: 1em 0;
+
+    &::after {
+        display: inline-block;
+        padding-left: 8px;
+        content: "\0279E"; // arrow right unicode
+        -webkit-transition: transform 0.3s ease-out;
+        -moz-transition: transform 0.3s ease-out;
+        -ms-transition: transform 0.3s ease-out;
+        -o-transition: transform 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+    }
+
+    &:hover {
+        &::after {
+            -webkit-transform: translateX(4px);
+            -moz-transform: translateX(4px);
+            -ms-transform: translateX(4px);
+            -o-transform: translateX(4px);
+            transform: translateX(4px);
+        }
+    }
+}

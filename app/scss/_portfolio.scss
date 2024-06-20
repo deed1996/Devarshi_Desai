@@ -1,0 +1,85 @@
+.portfolio {
+
+    &_grid-section {
+
+        padding: 20px;
+
+        @include breakpoint-up(medium) {
+            flex: 2;
+         }
+
+        p {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        span {
+            display: inline-flex;
+            align-items: center;
+            background-color: $brightBlue;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            width: 100%;
+            margin-left: 1rem;
+            padding: 5px;
+
+            @include breakpoint-up(medium) {
+                span {
+                    background-color: $white;
+                }
+            }
+
+            li {
+                padding: 0.5rem 1.5rem;
+                background-color: #CBDBEE;
+                border: 0;
+                color: white;
+                font-weight: 400;
+                border-radius: 50px;
+            }
+
+            h3 {
+                font-size: 0.9rem;
+                padding-left: 1.5rem;
+                margin-top: 0.2rem;
+                margin-bottom: 0.2rem;
+            }
+
+            h3 a:hover{
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-gap: 40px;
+        align-items: stretch;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @include breakpoint-up(large) {
+            grid-template-columns: repeat(3, minmax(280px, 1fr));
+        }
+
+        & article {
+            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        & article img {
+            max-width: 100%;
+        }
+
+        & article ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            padding: 0;
+        }
+    }
+}
