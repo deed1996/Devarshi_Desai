@@ -532,7 +532,7 @@ button_white,
 }
 
 .hero_text h1 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin-bottom: 1.5rem;
 }
 
@@ -544,7 +544,7 @@ button_white,
 
 @media (max-width: 31.25em) {
   .hero_text h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -558,9 +558,6 @@ button_white,
             order: 1;
     text-align: left;
     padding-right: 0;
-  }
-  .hero_text h1 {
-    font-size: 2.8rem;
   }
   .hero_text p {
     margin-right: 5rem;
@@ -597,7 +594,7 @@ button_white,
     padding-left: 5rem;
   }
   .hero_text h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 }
 
