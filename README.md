@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! This site showcases my projects, skills, and experience.
 
-## Available Scripts
+## Table of Contents
+- [About Me](#about-me)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## About Me
+I am a passionate front-end developer with over four years of experience, specializing in creating dynamic and user-friendly web interfaces. I derive immense satisfaction from transforming conceptual designs into fully functional websites using HTML, CSS, and JavaScript. I take pride in my meticulous attention to detail, ensuring every element and animation enhances the user experience. Each project is an opportunity for me to bring creative visions to life and deliver intuitive interfaces that resonate with users!
 
-### `npm start`
+## Projects
+### Project 1: [Bundlee x Clarks](https://deed1996.github.io/Bundlee/)
+- **Technologies**: HTML and CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project 2: [Frugi x Clarks](https://deed1996.github.io/Frugi/)
+- **Technologies**: HTML and CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project 3: [Raheem Youth](https://deed1996.github.io/Raheem-Youth/)
+- **Technologies**: HTML, CSS and JavaScript
 
-### `npm test`
+### Project 4: [Jamaica x Clarks](https://deed1996.github.io/Originals/)
+- **Technologies**: HTML, CSS and JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project 5: [Manage](https://deed1996.github.io/Manage-Landing-Page/)
+- **Technologies**: HTML, SASS and JavaScript
 
-### `npm run build`
+### Project 6: [JobHunters](https://deed1996.github.io/BLT-Assignment/)
+- **Technologies**: HTML, CSS and JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Project 7: [Cloudsteppers (Clarks US)](https://www.clarks.com/en-us/collections/cloudsteppers) (Coming Soon)
+- **Technologies**: HTML, Handlebars.js, CSS and JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Skills
+- **Frontend Technologies**: HTML5, CSS, CSS3/SASS, Handlebars.js
+- **Languages**: JavaScript, PHP
+- **Frameworks**: React, Next.js
+- **Tools**: Git, Filezilla, SourceTree, Altassian (Jira and BitBucket)
+- **Design**: Basic knowledge of UI/UX principles, ability to work with design tools such as Figma and Adobe CC (Photoshop and Illustrator).
+- **E-commerce Platforms**: WordPress, Hybris, Amplience, Monetate, Cloudflare, Teamwork Desk
+-**Analytics**: Google Analytics, Hotjar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
+Feel free to reach out to me at [devarshidesai2019@gmail.com](mailto:devarshidesai2019@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/devarshidesai2019/).
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio!
