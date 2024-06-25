@@ -72,8 +72,39 @@
         & article img {
             max-width: 100%;
         }
+    }
 
-        & article ul {
+    &_text {
+        // &__project--tags {
+        //     margin: 0;
+        //     display: flex;
+        //     gap: 10px;
+        //     align-items: center;
+        //     align-content: center;
+        //     flex-direction: row;
+        //     height: 30px;
+        //     justify-content: center;
+        //     list-style: none;
+        //     padding: 0;
+
+        //     .react,
+        //     .nextjs  {
+        //         border-radius: 50px;
+        //         margin: 0;
+        //         color: white;
+        //         width: 90px;
+        //     }
+
+        //     .react {
+        //         background: grey;
+        //     }
+
+        //     .nextjs {
+        //         background: blue;
+        //     }
+        // }
+
+        &__project--links {
             list-style: none;
             display: flex;
             align-items: center;
