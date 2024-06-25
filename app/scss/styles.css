@@ -723,7 +723,7 @@ button_white,
   max-width: 100%;
 }
 
-.portfolio_grid article ul {
+.portfolio_text__project--links {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
