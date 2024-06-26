@@ -12,8 +12,8 @@ Welcome to my portfolio! This site showcases my projects, skills, and experience
 I am a passionate front-end developer with over four years of experience, specializing in creating dynamic and user-friendly web interfaces. I derive immense satisfaction from transforming conceptual designs into fully functional websites using HTML, CSS, and JavaScript. I take pride in my meticulous attention to detail, ensuring every element and animation enhances the user experience. Each project is an opportunity for me to bring creative visions to life and deliver intuitive interfaces that resonate with users!
 
 ## Projects
-### Project 1: [Bundlee x Clarks](https://deed1996.github.io/Bundlee/)
-- **Technologies**: HTML and CSS
+### Project 1: [Todo App](https://deed1996.github.io/Todo-App/)
+- **Technologies**: React, HTML and CSS
 
 ### Project 2: [Frugi x Clarks](https://deed1996.github.io/Frugi/)
 - **Technologies**: HTML and CSS
@@ -30,8 +30,8 @@ I am a passionate front-end developer with over four years of experience, specia
 ### Project 6: [JobHunters](https://deed1996.github.io/BLT-Assignment/)
 - **Technologies**: HTML, CSS and JavaScript
 
-### Project 7: [Cloudsteppers (Clarks US)](https://www.clarks.com/en-us/collections/cloudsteppers) (Coming Soon)
-- **Technologies**: HTML, Handlebars.js, CSS and JavaScript
+### Project 7: [Audiophile - In-Progress]
+- **Technologies**: React, CSS3, Vercel
 
 ## Skills
 - **Frontend Technologies**: HTML5, CSS, CSS3/SASS, Handlebars.js
