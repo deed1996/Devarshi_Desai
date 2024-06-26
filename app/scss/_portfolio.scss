@@ -15,30 +15,6 @@
         }
 
         span {
-            display: inline-flex;
-            align-items: center;
-            background-color: $brightBlue;
-            border-top-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-            width: 100%;
-            margin-left: 1rem;
-            padding: 5px;
-
-            @include breakpoint-up(medium) {
-                span {
-                    background-color: $white;
-                }
-            }
-
-            li {
-                padding: 0.5rem 1.5rem;
-                background-color: #CBDBEE;
-                border: 0;
-                color: white;
-                font-weight: 400;
-                border-radius: 50px;
-            }
-
             h3 {
                 font-size: 0.9rem;
                 padding-left: 1.5rem;
@@ -75,34 +51,36 @@
     }
 
     &_text {
-        // &__project--tags {
-        //     margin: 0;
-        //     display: flex;
-        //     gap: 10px;
-        //     align-items: center;
-        //     align-content: center;
-        //     flex-direction: row;
-        //     height: 30px;
-        //     justify-content: center;
-        //     list-style: none;
-        //     padding: 0;
+        &__project--tags {
+            margin: 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            align-content: center;
+            flex-direction: row;
+            height: 30px;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            position: absolute;
+            margin-top: -65px;
+            margin-left: 10px;
 
-        //     .react,
-        //     .nextjs  {
-        //         border-radius: 50px;
-        //         margin: 0;
-        //         color: white;
-        //         width: 90px;
-        //     }
+            .recent,
+            .inprogress  {
+                border-radius: 50px;
+                margin: 0;
+                color: white;
+            }
 
-        //     .react {
-        //         background: grey;
-        //     }
+            .recent {
+                background: #4169E1;
+            }
 
-        //     .nextjs {
-        //         background: blue;
-        //     }
-        // }
+            .inprogress {
+                background: #708090;
+            }
+        }
 
         &__project--links {
             list-style: none;
