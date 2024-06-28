@@ -104,6 +104,17 @@
             gap: 30px;
         }
 
+        @include breakpoint-down(extra-small) {
+            ul {
+                flex-direction: column;
+                gap:15px;
+            }
+
+            ul li a button {
+                width: 160px;
+            }
+        }
+
         @include breakpoint-up(medium) {
             
             ul { 
@@ -124,7 +135,6 @@
 }
 
 .arrow {
-    margin: 1em 0;
 
     &::after {
         display: inline-block;
