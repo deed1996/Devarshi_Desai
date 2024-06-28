@@ -580,6 +580,19 @@ button_white,
   gap: 30px;
 }
 
+@media (max-width: 31.25em) {
+  .hero_text ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  .hero_text ul li a button {
+    width: 160px;
+  }
+}
+
 @media (min-width: 40em) {
   .hero_text ul {
     -webkit-box-pack: start;
@@ -596,10 +609,6 @@ button_white,
   .hero_text h1 {
     font-size: 3.6rem;
   }
-}
-
-.arrow {
-  margin: 1em 0;
 }
 
 .arrow::after {
