@@ -31,7 +31,7 @@ I am a passionate front-end developer with over four years of experience, specia
 - **Technologies**: HTML, CSS and JavaScript
 
 ### Project 7: Audiophile (In-Progress)
-- **Technologies**: React, CSS3, Vercel
+- **Technologies**: React, Next.js and Typescript
 
 ## Skills
 - **Frontend Technologies**: HTML5, CSS, CSS3/SASS, Handlebars.js
