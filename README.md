@@ -40,7 +40,7 @@ I am a passionate front-end developer with over four years of experience, specia
 - **Tools**: Git, Filezilla, SourceTree, Atlassian (Jira and BitBucket)
 - **Design**: Basic UI/UX principles knowledge and ability to work with design tools such as Figma and Adobe CC (Photoshop and Illustrator).
 - **E-commerce Platforms**: WordPress, Hybris, Amplience, Monetate, Cloudflare, Teamwork Desk
--**Analytics**: Google Analytics, Hotjar
+- **Analytics**: Google Analytics, Hotjar
 
 ## Contact
 Feel free to reach out to me at [devarshidesai2019@gmail.com](mailto:devarshidesai2019@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/devarshidesai2019/).
