@@ -13,22 +13,22 @@ I am a passionate front-end developer with over four years of experience, specia
 
 ## Projects
 ### Project 1: [Todo App](https://deed1996.github.io/Todo-App/)
-- **Technologies**: React, HTML and CSS
+- **Technologies**: React, HTML5 and CSS
 
 ### Project 2: [Frugi](https://deed1996.github.io/Frugi/)
-- **Technologies**: HTML, CSS and JavaScript
+- **Technologies**: HTML5, CSS and JavaScript
 
 ### Project 3: [Raheem Youth](https://deed1996.github.io/Raheem-Youth/)
-- **Technologies**: HTML, CSS and JavaScript
+- **Technologies**: HTML5, CSS and JavaScript
 
 ### Project 4: [Bundlee](https://deed1996.github.io/Bundlee/)
-- **Technologies**: HTML, CSS
+- **Technologies**: HTML5, CSS
 
 ### Project 5: [Manage](https://deed1996.github.io/Manage/)
-- **Technologies**: HTML, CSS3 and JavaScript
+- **Technologies**: HTML5, CSS3 and JavaScript
 
 ### Project 6: [JobHunters](https://deed1996.github.io/JobHunters/)
-- **Technologies**: HTML, CSS and JavaScript
+- **Technologies**: HTML5, CSS and JavaScript
 
 ### Project 7: Audiophile (In-Progress)
 - **Technologies**: React, Next.js and Typescript
