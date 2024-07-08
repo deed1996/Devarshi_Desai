@@ -37,8 +37,8 @@ I am a passionate front-end developer with over four years of experience, specia
 - **Frontend Technologies**: HTML5, CSS, CSS3/SASS, Handlebars.js
 - **Languages**: JavaScript, PHP
 - **Frameworks**: React, Next.js
-- **Tools**: Git, Filezilla, SourceTree, Atlassian (Jira and BitBucket)
-- **Design**: Basic UI/UX principles knowledge and ability to work with design tools such as Figma and Adobe CC (Photoshop and Illustrator).
+- **Tools**: Git, Filezilla, SourceTree, Atlassian (Trello and BitBucket)
+- **Design**: Basic UI/UX principles knowledge and ability to work with design tools such as Canva, Figma and Adobe CC (Photoshop and Illustrator).
 - **E-commerce Platforms**: WordPress, Hybris, Amplience, Monetate, Cloudflare, Teamwork Desk
 - **Analytics**: Google Analytics, Hotjar
 
